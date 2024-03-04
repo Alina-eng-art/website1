@@ -1,0 +1,373 @@
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 850px;
+    width: 500%; 
+    height: auto;
+}
+
+.banner {
+    position: absolute;
+    top: 450px;
+}
+
+.text1 {
+    position: absolute;
+    top: 1000px;
+    left: 650px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.text2 {
+    position: absolute;
+    top: 1120px;
+    left: 900px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.text3 {
+    position: absolute;
+    top: 1320px;
+    left: 880px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.kvadrat {
+    position: absolute;
+    top: 1530px;
+    left: 200px;
+}
+
+.photo {
+    position: absolute;
+    top: 1610px;
+    left: 280px;
+}
+
+.palka {
+    position: absolute;
+    top: 1650px;
+    left: 1100px;
+}
+
+.text4 {
+    position: absolute;
+    top: 1630px;
+    left: 1140px;
+    color: rgb(1, 1, 1);
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.kvadrat2 {
+    position: absolute;
+    top: 1900px;
+    left: 1250px;
+}
+
+.photo2 {
+    position: absolute;
+    top: 2080px;
+    left: 1150px;
+}
+
+.text5 {
+    position: absolute;
+    top: 2400px;
+    left: 250px;
+    color: rgb(51, 49, 49);
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+.text6 {
+    position: absolute;
+    top: 2530px;
+    left: 250px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.palka2 {
+    position: absolute;
+    top: 2520px;
+    left: 1000px;
+}
+
+.text7 {
+    position: absolute;
+    top: 2990px;
+    left: 850px;
+    color: rgb(51, 49, 49);
+    font-size: 50px;
+}
+
+.kostum {
+    position: absolute;
+    display: flex;
+    top: 3200px;
+    left: 100px; 
+  }
+  
+  .kostum img {
+    margin-right: 30px;
+  }
+
+.kvadrat3 {
+    position: absolute;
+    top: 4340px;
+    width: 120vw; 
+    height: 120vh;
+    overflow: hidden;
+}
+
+.kvadrat3 img {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.kvadrat4 {
+    position: absolute;
+    top: 5100px;
+    left: 350px;
+}
+
+.photo3 {
+    position: absolute;
+    top: 4450px;
+    left: 150px;
+}
+
+.text8 {
+    position: absolute;
+    top: 4380px;
+    left: 1100px;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+
+.kvadrat5 {
+    position: absolute;
+    top: 4960px;
+    left: 1050px;
+}
+
+.photo4 {
+    position: absolute;
+    top: 5030px;
+    left: 1170px;
+}
+
+.text9 {
+    position: absolute;
+    top: 5340px;
+    left: 190px;
+    color: rgb(1, 1, 1);
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.text10 {
+    position: absolute;
+    top: 5660px;
+    left: 190px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.palka3 {
+    position: absolute;
+    top: 5660px;
+    left:1000px;
+}
+
+.zemlya {
+    position: absolute;
+    top: 5930px;
+    left: 0px;
+}
+
+.bumaga {
+    position: absolute;
+    top: 6300px;
+    left:900px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+
+.kvadrat6 {
+    position: absolute;
+    top: 7000px;
+    left:190px;
+}
+
+.photo5 {
+    position: absolute;
+    top: 7100px;
+    left: 280px;
+}
+
+.text11 {
+    position: absolute;
+    top: 6980px;
+    left: 1160px;
+    color: rgb(10, 10, 10);
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.text12 {
+    position: absolute;
+    top: 7180px;
+    left: 1160px;
+    color: rgb(1, 1, 1);
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.kvadrat7 {
+    position: absolute;
+    top: 7490px;
+    left: 1340px;
+}
+
+.photo6 {
+    position: absolute;
+    top: 7550px;
+    left: 1250px;
+}
+
+.text13 {
+    position: absolute;
+    top: 7890px;
+    left: 230px;
+    color: rgb(10, 10, 10);
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.text14 {
+    position: absolute;
+    top: 8100px;
+    left: 230px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.kvadrat8 {
+    position: absolute;
+    top: 8570px;
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden;
+}
+
+.kvadrat8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text15 {
+    position: absolute;
+    top: 8550px;
+    left: 600px;
+    color: rgb(10, 10, 10);
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.text16 {
+    position: absolute;
+    top: 8650px;
+    left: 900px;
+    color: rgb(10, 10, 10);
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.photo7 {
+    position: absolute;
+    top: 8930px;
+    left: 200px;
+}
+
+.photo8 {
+    position: absolute;
+    top: 8930px;
+    left: 1100px;
+}
+
+.logo2 {
+    position: absolute;
+    top: 9920px;
+    left: 850px;
+    width: 500%; 
+    height: auto;
+}
+
+.photo9 {
+    position: absolute;
+    top: 10320px;
+}
+
+.text17 {
+    position: absolute;
+    top: 10790px;
+    left: 750px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-size: 120px;
+}
+
+.text18 {
+    position: absolute;
+    top: 11040px;
+    left: 900px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.gray-footer {
+    position: absolute;
+    font-size: 22px;
+    top: 11215px;
+    width: 2200px;
+    background-color: #4d4949; 
+    color: #ffffff; 
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 150px; 
+  }
+  
+  .footer-button {
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    color: #e3c0c0;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 10px; 
+  }
+  
+  .footer-button:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+  }
