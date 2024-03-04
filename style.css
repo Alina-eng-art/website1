@@ -1,42 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+}
+
 .logo {
-    position: absolute;
-    top: 50px;
-    left: 850px;
-    width: 500%; 
-    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: 50px; */
+    /* left: 850px; */
+    /* width: 500%;  */
+    /* height: auto; */
+}
+
+.logo img {
+    @media (max-width: 400px) {
+        width: 200px;
+    }
 }
 
 .banner {
-    position: absolute;
-    top: 450px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 503px;
+    background-image: url('img/img2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: absolute; */
+    /* top: 450px; */
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
 }
 
 .text1 {
-    position: absolute;
-    top: 1000px;
-    left: 650px;
+    /* position: absolute; */
+    /* top: 1000px; */
+    /* left: 650px; */
     color: aliceblue;
     letter-spacing: 4px;
-    font-size: 50px;
+    font-size: 60px;
+    text-align: right;
+
+    @media (max-width: 400px) {
+        font-size: 40px;
+    }
 }
 
 .text2 {
-    position: absolute;
-    top: 1120px;
-    left: 900px;
+    /* position: absolute; */
+    /* top: 1320px; */
+    /* left: 880px; */
     color: aliceblue;
     letter-spacing: 4px;
-    font-size: 50px;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: right;
 }
 
-.text3 {
-    position: absolute;
-    top: 1320px;
-    left: 880px;
-    color: aliceblue;
-    letter-spacing: 4px;
-    font-size: 30px;
-}
+/* END */
 
 .kvadrat {
     position: absolute;
@@ -114,17 +150,17 @@
     position: absolute;
     display: flex;
     top: 3200px;
-    left: 100px; 
-  }
-  
-  .kostum img {
+    left: 100px;
+}
+
+.kostum img {
     margin-right: 30px;
-  }
+}
 
 .kvadrat3 {
     position: absolute;
     top: 4340px;
-    width: 120vw; 
+    width: 120vw;
     height: 120vh;
     overflow: hidden;
 }
@@ -189,7 +225,7 @@
 .palka3 {
     position: absolute;
     top: 5660px;
-    left:1000px;
+    left: 1000px;
 }
 
 .zemlya {
@@ -201,7 +237,7 @@
 .bumaga {
     position: absolute;
     top: 6300px;
-    left:900px;
+    left: 900px;
     color: rgb(255, 255, 255);
     letter-spacing: 5px;
     font-size: 100px;
@@ -210,7 +246,7 @@
 .kvadrat6 {
     position: absolute;
     top: 7000px;
-    left:190px;
+    left: 190px;
 }
 
 .photo5 {
@@ -271,7 +307,7 @@
 .kvadrat8 {
     position: absolute;
     top: 8570px;
-    width: 100vw; 
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -316,7 +352,7 @@
     position: absolute;
     top: 9920px;
     left: 850px;
-    width: 500%; 
+    width: 500%;
     height: auto;
 }
 
@@ -348,26 +384,26 @@
     font-size: 22px;
     top: 11215px;
     width: 2200px;
-    background-color: #4d4949; 
-    color: #ffffff; 
+    background-color: #4d4949;
+    color: #ffffff;
     padding: 10px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 150px; 
-  }
-  
-  .footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-button {
     font-size: 22px;
     background-color: transparent;
     border: none;
     color: #e3c0c0;
     text-decoration: underline;
     cursor: pointer;
-    margin: 0 10px; 
-  }
-  
-  .footer-button:hover {
+    margin: 0 10px;
+}
+
+.footer-button:hover {
     text-decoration: none;
-    color: rgb(255, 255, 255); 
-  }
+    color: rgb(255, 255, 255);
+}
